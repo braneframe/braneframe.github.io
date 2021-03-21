@@ -8,9 +8,15 @@ body {
   margin: 0;
   overflow: hidden;
   background-color: #DDD;
+  font-family: Skia, sans-serif;
 }
 
-.container {
+h2 {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.fullscreen {
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -18,28 +24,42 @@ body {
   height: 100vh;
 }
 
-.inner {
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.header {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  width: 900px;
 }
 
 .logo {
-  margin-right: 32px;
-  width: 192px;
   opacity: .8;
+  filter: grayscale(100%);
+  width: 240px;
 }
 
 .title {
   display: flex;
-  font-family: Skia, sans-serif;
-  font-size: 100px;
+  font-size: 80px;
   font-weight: 100;
   letter-spacing: 16px;
-  /*color: #CCC;*/
+  color: #555;
 }
 
 .title span:first-child {
   font-weight: 400;
+  color: #222;
+}
+
+.subtitle {
+  font-size: 24px;
+  font-weight: 200;
+  height: 80px;
+  padding: 6px;
 }
