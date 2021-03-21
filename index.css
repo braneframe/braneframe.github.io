@@ -1,0 +1,9 @@
+@font-face { 
+  font-family: Skia; 
+  src: url('https://www.mediafont.com/storage/contents/5905/font.eot'); /* IE */ 
+  src: local('Skia'), url('https://www.mediafont.com/storage/contents/5905/Skia.ttf'); /* non-IE */ 
+}
+
+h1 {
+  font-family: Skia;
+}
