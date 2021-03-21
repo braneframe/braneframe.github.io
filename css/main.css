@@ -17,6 +17,11 @@ h2 {
   font-weight: 400;
 }
 
+a:hover {
+  color: #333;
+  cursor: pointer;
+}
+
 .fullscreen {
   display: flex;
   height: 100vh;
@@ -50,10 +55,10 @@ h2 {
   width: 160px;
 }
 .logo img {
-  opacity: .8;
+  opacity: .9;
   filter: grayscale(100%);
-  width: 160px;
-  height: 160px;
+  width: 144px;
+  height: 144px;
 }
 
 .title {
@@ -63,7 +68,6 @@ h2 {
   letter-spacing: 16px;
   color: #555;
 }
-
 .title span:first-child {
   font-weight: 400;
   color: #222;
@@ -72,7 +76,7 @@ h2 {
 .subtitle {
   font-size: 24px;
   font-weight: 200;
-  height: 120px;
+  height: 160px;
   padding: 6px;
 }
 
