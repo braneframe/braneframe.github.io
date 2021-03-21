@@ -4,9 +4,42 @@
   src: local('Skia'), url('https://www.mediafont.com/storage/contents/5905/Skia.ttf'); /* non-IE */ 
 }
 
-h1 {
-  font-family: Skia;
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: #DDD;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 32px;
+  width: 192px;
+  opacity: .8;
+}
+
+.title {
+  display: flex;
+  font-family: Skia, sans-serif;
   font-size: 100px;
   font-weight: 100;
   letter-spacing: 16px;
+  /*color: #CCC;*/
+}
+
+.title span:first-child {
+  font-weight: 400;
 }
