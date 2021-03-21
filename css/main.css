@@ -5,10 +5,11 @@
 }
 
 body {
-  margin: 0;
+  margin: auto;
   overflow: hidden;
   background-color: #DDD;
   font-family: Skia, sans-serif;
+  width: 900px;
 }
 
 h2 {
@@ -18,13 +19,18 @@ h2 {
 
 .fullscreen {
   display: flex;
-  flex: 1;
-  flex-direction: column;
-  justify-content: center;
   height: 100vh;
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  margin: auto;
+}
+
+.center {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -33,15 +39,20 @@ h2 {
 .header {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  width: 900px;
+  height: 300px;
+  width: 850px;
 }
 
 .logo {
+  display: flex;
+  width: 160px;
+}
+.logo img {
   opacity: .8;
   filter: grayscale(100%);
-  width: 240px;
+  width: 160px;
 }
 
 .title {
@@ -60,6 +71,6 @@ h2 {
 .subtitle {
   font-size: 24px;
   font-weight: 200;
-  height: 80px;
+  height: 120px;
   padding: 6px;
 }
