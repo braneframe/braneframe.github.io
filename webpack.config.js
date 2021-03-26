@@ -1,5 +1,5 @@
 //
-// (C) 2021 alienlabs.io
+// Copyright 2021 BRAINFRAME.com
 //
 
 const path = require('path');

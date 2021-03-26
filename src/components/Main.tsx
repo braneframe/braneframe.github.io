@@ -1,5 +1,5 @@
 //
-// Copyright 2021 DXOS.org
+// Copyright 2021 BRAINFRAME.com
 //
 
 import React from 'react';
@@ -28,6 +28,7 @@ const useStyles = makeStyles(() => ({
   title: {
     fontSize: 80,
     letterSpacing: 16,
+    marginTop: 5,
     fontWeight: 200,
     color: '#333',
     '& span:first-child': {

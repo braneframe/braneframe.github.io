@@ -1,5 +1,5 @@
 //
-// (C) 2021 alienlabs.io
+// Copyright 2021 BRAINFRAME.com
 //
 
 // https://storybook.js.org/docs/react/get-started/whats-a-story

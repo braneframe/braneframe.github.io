@@ -1,5 +1,5 @@
 //
-// Copyright 2021 DXOS.org
+// Copyright 2021 BRAINFRAME.com
 //
 
 export { default as Center } from './Center';
