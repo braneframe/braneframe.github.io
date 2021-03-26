@@ -1,7 +1,4 @@
 # Github Pages
 
-
-https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
-
-
-Website
+This is a specially named repo `braneframe.github.io` used to publish the site via Github Pages.
+The `docs` folder is published automatically.

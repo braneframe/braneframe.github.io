@@ -7,57 +7,40 @@ import React from 'react';
 import SvgIcon from '@material-ui/core/SvgIcon';
 
 const Icon = (props) => (
-  <SvgIcon {...props} viewBox='0 0 256 256'>
-    <g transform='matrix(1,0,0,1,-160,-124)'>
+  <SvgIcon
+    {...props}
+     viewBox='0 0 487 559'
+     style={{
+       fill: 'none',
+       fillRule: 'nonzero',
+       stroke: 'rgb(0,0,0)',
+       strokeWidth: '12px'
+     }}
+  >
+    <g
+      transform='matrix(1,0,0,1,0,0)'
+    >
       <path
-        d='M282.254,147.134L195.254,194.589C191.399,196.692 189,200.732 189,205.124L189,298.876C189,303.268 191.399,307.308 195.254,309.411L282.254,356.866C285.836,358.819 290.164,358.819 293.746,356.866L380.746,309.411C384.601,307.308 387,303.268 387,298.876L387,205.124C387,200.732 384.601,196.692 380.746,194.589L293.746,147.134C290.164,145.181 285.836,145.181 282.254,147.134Z'
+        d="M243.44,12.5l230.94,133.333l0,266.667l-230.94,133.333l-230.94,-133.333l0,-266.667l230.94,-133.333Z"
+      />
+      <path
+        d="M279.167,145.833l133.333,66.667l-133.333,66.667l133.333,66.666l-133.333,66.667"
         style={{
           fill: 'none',
           fillRule: 'nonzero',
           stroke: 'rgb(0,0,0)',
-          strokeWidth: '12px'
+          strokeWidth: '83.33px',
+          strokeLinecap: 'butt',
+          strokeLinejoin: 'bevel'
         }}
       />
-      <path
-        d='M288,252L216,216'
-        style={{
-          fill: 'none',
-          fillRule: 'nonzero',
-          stroke: 'rgb(0,0, 0)',
-          strokeWidth: '8px',
-          strokeLinejoin: 'round',
-        }}
-      />
-      <path
-        d='M216,288L288,252'
-        style={{
-          fill: 'none',
-          fillRule: 'nonzero',
-          stroke: 'rgb(0,0, 0)',
-          strokeWidth: '8px',
-          strokeLinejoin: 'round',
-        }}
-      />
-      <path
-        d='M360,288L288,252'
-        style={{
-          fill: 'none',
-          fillRule: 'nonzero',
-          stroke: 'rgb(0,0, 0)',
-          strokeWidth: '8px',
-          strokeLinejoin: 'round',
-        }}
-      />
-      <path
-        d='M360,216L288,252'
-        style={{
-          fill: 'none',
-          fillRule: 'nonzero',
-          stroke: 'rgb(0,0, 0)',
-          strokeWidth: '8px',
-          strokeLinejoin: 'round',
-        }}
-      />
+      <g>
+        <circle cx="193.44" cy="145.833" r="33.333"/>
+        <circle cx="193.44" cy="412.5" r="33.333"/>
+        <circle cx="110.107" cy="212.5" r="33.333"/>
+        <circle cx="110.107" cy="345.833" r="33.333"/>
+        <circle cx="193.44" cy="279.167" r="33.333"/>
+      </g>
     </g>
   </SvgIcon>
 );
