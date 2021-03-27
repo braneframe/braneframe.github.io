@@ -23,6 +23,17 @@ module.exports = {
         include: path.resolve(__dirname, './src'),
         exclude: /node_modules/,
         loader: 'ts-loader'
+      },
+      {
+        test: /\.svg$/,
+        use: [
+          {
+            loader: 'svg-url-loader',
+            options: {
+              limit: 10000,
+            },
+          },
+        ],
       }
     ]
   },
