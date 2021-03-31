@@ -3,6 +3,7 @@
 //
 
 const path = require('path');
+const FaviconsWebpackPlugin = require('favicons-webpack-plugin')
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 
 module.exports = {
@@ -30,15 +31,23 @@ module.exports = {
           {
             loader: 'svg-url-loader',
             options: {
-              limit: 10000,
+              limit: 10000
             },
           },
         ],
+      },
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/i,
+        type: 'asset/resource'
       }
     ]
   },
   resolve: {
-    extensions: [ '.tsx', '.ts', '.js' ],
+    extensions: [ '.tsx', '.ts', '.js' ]
   },
   plugins: [
     new HtmlWebPackPlugin({
@@ -46,6 +55,9 @@ module.exports = {
       templateParameters: {
         title: 'BRANEFRAME'
       }
+    }),
+    new FaviconsWebpackPlugin({
+      logo: './resources/img/favicon.png'
     })
   ]
 };
