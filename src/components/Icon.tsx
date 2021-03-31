@@ -1,5 +1,5 @@
 //
-// Copyright 2020 BRAINFRAME.com
+// Copyright 2020 BRANEFRAME.com
 //
 
 import React from 'react';

@@ -1,5 +1,5 @@
 //
-// Copyright 2021 BRAINFRAME.com
+// Copyright 2021 BRANEFRAME.com
 //
 
 import { muiTheme } from 'storybook-addon-material-ui'
